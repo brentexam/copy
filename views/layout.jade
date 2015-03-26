@@ -2,6 +2,9 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    //remove default express css
+    link(rel='stylesheet', href='/stylesheets/style.css') 
+    //add bootstrap
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css') 
   body
     block content
